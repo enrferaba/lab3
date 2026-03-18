@@ -64,3 +64,4 @@ curl -X POST http://localhost:8000/api/token/ \
   - unit_price_per_liter > 0
   - only allows billing when `liters == barrel.liters`
   - marks the barrel as billed when the line is added
+- Pull requests into `main` require the GitHub Actions `test` check to pass before merge.
